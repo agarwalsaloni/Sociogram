@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/usrimg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/usrName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/usrimg"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/createdTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/usrimg"
+            android:layout_below="@+id/usrName"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/postDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usrimg"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"/>
+
+        <ImageView
+            android:id="@+id/likeBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/postDetail"
+            android:layout_margin="15dp"/>
+        <TextView
+            android:id="@+id/likedCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/likeBtn"
+            android:layout_below="@id/postDetail"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="4dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

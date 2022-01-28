@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702940779836",
+    "project_id": "sociogram-f8f88",
+    "storage_bucket": "sociogram-f8f88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702940779836:android:b4cfcff8b4bff51702ba39",
+        "android_client_info": {
+          "package_name": "com.example.sociogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702940779836-ckggm1ev84veofso2q2la16jhrd5f87m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWA_bFcjXUFGDqF9hV4LFKTwpns9nSV9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702940779836-ckggm1ev84veofso2q2la16jhrd5f87m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
